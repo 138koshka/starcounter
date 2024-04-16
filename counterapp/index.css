@@ -1,0 +1,82 @@
+
+body {
+    background-image: url("starrysky.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    background-repeat: no-repeat;
+    font-family: Kanit, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: floralwhite;
+    
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+    
+    
+    
+}
+
+h1 {
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-weight: 400;
+    color: #999;
+    text-shadow: 1px 1px #333;
+    
+}
+
+button {
+ 
+ background: linear-gradient(to right,#e78530 ,#b67d28);
+ background-color: #e78530;
+ color: #fff;
+ font-family: Kanit;
+ font-size: 17px;
+ font-weight: 800;
+ text-decoration: none;
+ border: 1px solid #000;
+ border-radius: 10px;
+ margin: 10px;
+ padding: 20px;
+}
+
+button:hover{
+ background: linear-gradient(to right,#e99835 ,#ad7726);
+ background-color: #e99835;
+ color: #fff;
+}
+
+button:active{
+ transform: scale(0.95);
+}
+
+#increment-btn {
+    width: 150px;
+    color: #000;
+    
+}
+
+#save-btn {
+    width: 150px;
+    color: #000;
+}
+
+.container {
+    width: 400px;
+    height: 50px;
+    background-color: rgb(0 0 0 / 50%);
+    padding: 10px;
+}
